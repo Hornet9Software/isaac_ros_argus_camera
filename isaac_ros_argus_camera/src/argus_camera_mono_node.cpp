@@ -27,10 +27,10 @@ namespace
 {
 
 constexpr char OUTPUT_COMPONENT_KEY_LEFT_IMAGE[] = "sink_left_image/sink";
-constexpr char OUTPUT_TOPIC_NAME_LEFT_IMAGE[] = "left/image_raw";
+constexpr char OUTPUT_TOPIC_NAME_LEFT_IMAGE[] = "image_raw";
 
 constexpr char OUTPUT_COMPONENT_KEY_LEFT_CAMERAINFO[] = "sink_left_camerainfo/sink";
-constexpr char OUTPUT_TOPIC_NAME_LEFT_CAMERAINFO[] = "left/camerainfo";
+constexpr char OUTPUT_TOPIC_NAME_LEFT_CAMERAINFO[] = "camera_info";
 
 constexpr char OUTPUT_DEFAULT_IMAGE_FORMAT[] = "nitros_image_rgb8";
 constexpr char OUTPUT_DEFAULT_CAMERAINFO_FORMAT[] = "nitros_camera_info";
